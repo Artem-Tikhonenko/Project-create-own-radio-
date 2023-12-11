@@ -117,3 +117,60 @@ h2.title {
     margin: 0 auto;
     margin-top: 5px;
 }
+
+.waiting {
+    height: 607px;
+    background-color: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 18px;
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    width: 342px;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 26px;
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}

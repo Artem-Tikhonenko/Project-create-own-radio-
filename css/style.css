@@ -79,7 +79,7 @@ h2.title {
     line-height: 28px;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0px auto;
     margin-top: 73px;
@@ -254,4 +254,29 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.gift {
+    min-height: 630px;
+    background-color: #EFEFEF;
+    padding: 88px 0;
+}
+
+.gift .gift_img {
+    display: flex;
+    margin: 0 auto;
+    width: 154px;
+    height: 174px;
+}
+
+.gift .gift_text {
+    margin-top: 45px;
+    width: 1161px;
+    height: 113px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
 }

@@ -248,3 +248,36 @@
 .btn__gift {
   margin-top: 60px;
 }
+
+.webinar {
+  background: #0f0b0b;
+  min-height: 428px;
+  padding: 50px 0;
+}
+
+.webinar__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar__subtitle {
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.webinar__title {
+  font-size: 36px;
+  line-height: 100%;
+  color: #f9bf3b;
+  margin-top: 20px;
+}
+
+.webinar__text {
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #efefef;
+  margin-top: 20px;
+}
